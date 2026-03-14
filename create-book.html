@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Manage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="alert-list"></div>
+
+  <h1 class="title">Thêm mới Sách</h1>
+
+  <a href="index.html" class="">Trở lại</a>
+
+  <form class="form" id="form-create" method="POST">
+    <input type="text" name="title" placeholder="Nhập tên sách">
+    <input type="number" name="price" placeholder="Nhập giá">
+    <input type="text" name="author" placeholder="Nhập tên tác giả">
+    <button type="submit">Tạo mới</button>
+  </form>
+
+  
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
