@@ -383,7 +383,7 @@ if(formForgotPassword){
 
         if(email){
             const actionCodeSettings = {
-                url: `http://127.0.0.1:5500/Bai14/hoc-gitlogin.html`
+                url: `http://127.0.0.1:5500/Bai28/todo-app/login.html`
             };
             sendPasswordResetEmail(auth, email, actionCodeSettings)
                 .then(() => {
